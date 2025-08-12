@@ -9,14 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.aligner-tracker"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.alignertracker"
     },
     "web": {
       "bundler": "metro",
@@ -32,6 +34,41 @@
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Gotham-Black.otf",
+            "./assets/fonts/Gotham-Bold.otf",
+            "./assets/fonts/Gotham-Book.otf",
+            "./assets/fonts/Gotham-BookItalic.otf",
+            "./assets/fonts/Gotham-Light.otf",
+            "./assets/fonts/Gotham-Medium.otf",
+            "./assets/fonts/Gotham-Thin.otf",
+            "./assets/fonts/Gotham-ThinItalic.otf",
+            "./assets/fonts/Gotham-UltraItalic.otf",
+            "./assets/fonts/Gotham-XLight.otf",
+            "./assets/fonts/Gotham-XLightItalic.otf",
+            "./assets/fonts/Digitalt.otf"
+          ],
+          "ios": {
+            "fonts": [
+              "./assets/fonts/Gotham-Black.otf",
+              "./assets/fonts/Gotham-Bold.otf",
+              "./assets/fonts/Gotham-Book.otf",
+              "./assets/fonts/Gotham-BookItalic.otf",
+              "./assets/fonts/Gotham-Light.otf",
+              "./assets/fonts/Gotham-Medium.otf",
+              "./assets/fonts/Gotham-Thin.otf",
+              "./assets/fonts/Gotham-ThinItalic.otf",
+              "./assets/fonts/Gotham-UltraItalic.otf",
+              "./assets/fonts/Gotham-XLight.otf",
+              "./assets/fonts/Gotham-XLightItalic.otf",
+              "./assets/fonts/Digitalt.otf"
+            ]
+          }
         }
       ]
     ],

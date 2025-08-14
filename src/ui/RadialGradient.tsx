@@ -26,7 +26,6 @@ const RadialGradient = ({
   color1: { stopColor: stopColor1, offset: offsetColor1 },
   color2: { stopColor: stopColor2, offset: offsetColor2 },
 }: RadialGradientProps) => {
-  console.log(cx, cy, stopColor1, offsetColor1, stopColor2, offsetColor2);
   return (
     <View style={StyleSheet.absoluteFill}>
       <Svg height="100%" width="100%" style={StyleSheet.absoluteFill}>

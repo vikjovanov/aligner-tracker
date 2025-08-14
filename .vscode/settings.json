@@ -1,7 +1,9 @@
 {
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
-    "source.organizeImports": "explicit",
-    "source.sortMembers": "explicit"
+    "source.sortImports": "explicit",
+    "source.sortMembers": "explicit",
+    "source.removeUnused.ts": "never",
+    "source.removeUnused": "never",
   }
 }

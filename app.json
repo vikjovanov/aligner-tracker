@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.aligner-tracker"
+      "bundleIdentifier": "com.vjovanov.aligner-tracker"
     },
     "android": {
       "adaptiveIcon": {
@@ -70,7 +70,8 @@
             ]
           }
         }
-      ]
+      ],
+      "expo-localization"
     ],
     "experiments": {
       "typedRoutes": true

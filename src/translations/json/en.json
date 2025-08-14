@@ -1,0 +1,19 @@
+{
+    "tracker.counter.woreToday": "Wore today",
+    "tracker.counter.notice": "Full = Wear time goal reached",
+    "tracker.status.aligner.on": "Aligners ON",
+    "tracker.status.aligner.off": "Aligners OFF",
+    "tracker.actions.adjustTimer": "Adjust my timer",
+    "tracker.actions.pause": "Take a break",
+    "tracker.actions.goToHistory": "Your progress",
+    "tracker.actions.enableNotifications": "Enable notifications",
+    "tracker.actions.start": "Start wearing",
+    "tracker.status.notifications.enabled": "You'll get notify when time is done",
+
+
+    "takeABreak.title": "Take a break",
+    "takeABreak.subtitle": "I'll remind you when it's time to gear up",
+    
+    "ui.button.break.duration.format.minutes": "mm[m]",
+    "ui.button.break.duration.format.hours": "H[h]mm" 
+}

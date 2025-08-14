@@ -1,11 +1,7 @@
-import { Text, View } from "react-native";
+import TakeABreakScreen from "@/src/screens/TakeABreak";
 
-const TakeABreakScreen = () => {
-	return (
-		<View>
-			<Text>Take a break</Text>
-		</View>
-	);
+const TakeABreakPage = () => {
+  return <TakeABreakScreen />;
 };
 
-export default TakeABreakScreen;
+export default TakeABreakPage;
